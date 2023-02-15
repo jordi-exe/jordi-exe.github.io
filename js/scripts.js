@@ -52,15 +52,16 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
     // Activate SimpleLightbox plugin for portfolio items
-    /*new SimpleLightbox({
-        elements: '#portfolio a.portfolio-box',
-        overlay: false
-    });*/
     var lightbox = new SimpleLightbox('.gallery a', {
-        elements: '#portfolio a.portfolio-box',
+        captionsData: 'desc',
         overlayOpacity: 0.8,
         captionSelector: 'self',
         captionPosition: 'outside',
+        scaleImageToRatio: true,
+        widthRatio: 0.5,
+        heightRatio: 0.5,
+        maxZoom: 3,
+        scrollZoom: false
      });
 
 });
