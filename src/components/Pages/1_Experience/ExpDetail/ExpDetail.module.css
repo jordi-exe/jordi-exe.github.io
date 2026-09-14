@@ -63,8 +63,8 @@
 
 @media (max-width: 768px) {
 	.slot {
-		height: 40rem;
-		max-height: 40rem;
+		height: 45rem;
+		max-height: 45rem;
 		flex-flow: column nowrap;
 		justify-content: start;
 	}
