@@ -1,4 +1,4 @@
-.navContainer {
+.navMenu {
 	display: flex;
 	width: 20rem;
 	height: 100%;
@@ -82,4 +82,34 @@ a:focus-visible {
 
 .avatar {
 	margin-bottom: 2.5rem;
+}
+
+.hamburger {
+	display: none;
+}
+
+@media (max-width: 768px) {
+	.hamburger {
+		display: flex;
+		position: fixed;
+		padding-top: 10px;
+		margin-left: 10px;
+		z-index: 11;
+	}
+
+	.navMenu {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: auto;
+		min-height: 20rem;
+		z-index: 10;
+	}
+
+	.navBody {
+		flex-flow: row-reverse wrap;
+		gap: 8rem;
+		justify-content: center;
+	}
 }

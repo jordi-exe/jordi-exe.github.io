@@ -49,3 +49,13 @@
 .active {
 	background-color: red;
 }
+
+@media (max-width: 768px) {
+	.pageContainer {
+		grid-template-columns: repeat(2, minmax(100px, 1fr));
+	}
+
+	.controller {
+		display: none;
+	}
+}

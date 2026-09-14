@@ -60,3 +60,34 @@
 		display: none;
 	}
 }
+
+@media (max-width: 768px) {
+	.slot {
+		height: 40rem;
+		max-height: 40rem;
+		flex-flow: column nowrap;
+		justify-content: start;
+	}
+
+	.logoSlot {
+		height: 15rem;
+		border-radius: 1rem 0 0;
+	}
+
+	.detailSlot {
+		width: 100%;
+		height: auto;
+		border-radius: 0 0 1rem 1rem;
+
+		h3,
+		p {
+			text-align: center;
+			padding-bottom: 0.5rem;
+		}
+	}
+
+	.techShields {
+		flex-flow: row wrap;
+		justify-content: center;
+	}
+}

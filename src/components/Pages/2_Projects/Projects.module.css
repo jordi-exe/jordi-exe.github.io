@@ -43,3 +43,19 @@
 	align-items: center;
 	flex-flow: column nowrap;
 }
+
+@media (max-width: 768px) {
+	.layoutContainer {
+		flex-flow: column nowrap;
+		overflow-x: auto;
+		scrollbar-width: none;
+	}
+
+	.latestColumn {
+		text-align: center;
+
+		.latestDesc {
+			gap: 0.5rem;
+		}
+	}
+}

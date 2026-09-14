@@ -18,12 +18,14 @@ function Experience() {
 		<div className="pageContainer">
 			<h1>Experience</h1>
 
-			<Switch
-				leftValue="Work"
-				rightValue="Personal"
-				value={view}
-				onChange={setView}
-			/>
+			<div className={styles.switch}>
+				<Switch
+					leftValue="Work"
+					rightValue="Personal"
+					value={view}
+					onChange={setView}
+				/>
+			</div>
 
 			<div className={styles.flipContainer}>
 				<a.div className={styles.flipper} style={{ transform }}>

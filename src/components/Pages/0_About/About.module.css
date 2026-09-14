@@ -36,3 +36,22 @@
 	flex-wrap: wrap;
 	gap: 5rem;
 }
+
+@media (max-width: 768px) {
+	.pageBody {
+		overflow-x: auto;
+		scrollbar-width: none;
+	}
+
+	.pageColumn {
+		width: 100%;
+	}
+
+	.pageRow {
+		flex-direction: column;
+	}
+
+	.pageRowReverse {
+		flex-direction: column-reverse;
+	}
+}

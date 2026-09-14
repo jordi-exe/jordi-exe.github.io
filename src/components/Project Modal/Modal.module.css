@@ -143,3 +143,30 @@
 		font-style: italic;
 	}
 }
+
+@media (max-width: 768px) {
+	.modalBackdrop {
+		flex-flow: column nowrap;
+		justify-content: center;
+	}
+
+	.closeBtn {
+		width: 10rem;
+		height: 3rem;
+		border-radius: 1rem 1rem 0 0;
+		font-size: 1.5rem;
+		margin-top: 4rem;
+	}
+
+	.modalContainer {
+		flex-flow: column nowrap;
+		border-radius: 1rem 0 0 1rem;
+		height: 100%;
+	}
+
+	.column {
+		flex: none;
+
+		gap: 0.5rem;
+	}
+}

@@ -32,7 +32,7 @@ function About() {
 					</div>
 				</div>
 
-				<div className={styles.pageRow}>
+				<div className={`${styles.pageRow} ${styles.pageRowReverse}`}>
 					<div className={styles.pageColumn}>
 						<div className={styles.shields}>
 							<RenderLogos logos={about.logoApp} />
