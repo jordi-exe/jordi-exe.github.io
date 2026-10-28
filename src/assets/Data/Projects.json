@@ -69,10 +69,10 @@
 	},
 	{
 		"category": "latest",
-		"title": "Trello-Discord Bot Syncer",
-		"featuredImg": "/images/Projects/Code/TrelloDiscordBot/TrelloDiscord1.webp",
-		"featuredSummary": "A way to sync Trello and Discord seamlessly!",
-		"summary": "This bot is actually something that I am currently working on as a way to sync forum posts with Trello boards for ease of access.\n\n The main thing it does is that if there's a new forum post, the bot will automatically add that post as a card to a list on Trello, using Discord Forum Tags to dictate which list it'll be assigned to, as well as what labels it'll get.",
+		"title": "Inventory Application",
+		"featuredImg": "/images/Projects/Code/InventoryApp/InventoryAppMockup.webp",
+		"featuredSummary": "Easily take note of any item you have at home!",
+		"summary": "I am currently working on a mobile application that would allow users to insert any item they would like, and then tie it to any location of their choosing.\n\n I came up with this project as I realized that I kept forgetting where certain items were around the house, and how much an app like this would be very helpful not only to me, but for anybody else who tends to misplace items.\n\n My plan is for this app to be free for everybody, with all data locally stored on users' devices. That way there is no issue with the user not having access to an internet connection.",
 		"childImg": [
 			{ "type": "image", "src": "https://picsum.photos/601/900" },
 			{ "type": "image", "src": "https://picsum.photos/601/900" },
